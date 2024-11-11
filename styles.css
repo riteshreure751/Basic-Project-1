@@ -1,0 +1,86 @@
+body{
+   background-image: url(bg1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: "Lexend", sans-serif;
+   font-style: normal;
+   font-weight: 500px;
+}
+img{
+    
+    height:100px;
+    margin: -20px -13px;
+}
+#logo{
+    /* border: 2px solid ed; */
+    display: inline-block;
+    width: 90px;
+    height: 86px;
+    margin: -8px -7px;
+}
+.name{
+    width: 0px;
+    margin: 0px 5px;
+    color: white;
+}
+#nav{
+    position:absolute;
+    right:30px;
+    display:inline-block;
+    /* border: 2px solid yellow; */
+    width: 450px;
+    height: 60px;
+}
+.item a{
+    text-decoration: none;
+    display:block;
+    list-style:none;
+    color: white;
+    font-size: 20px;
+    margin: 2px 3px;
+    padding: 0px 10px;
+}
+.item a:hover{
+    color: rgb(194, 194, 194);
+    text-decoration:underline;
+}
+.item{
+    list-style:none;
+    display:inline-block;
+    
+}
+ul{
+    padding:0px 20px;
+}
+.form{
+    border: 3px solid white;
+    width: 500px;
+    margin: 130px 100px;
+    border-radius: 10px;
+}
+#fill{
+    color: white;
+    font-size: 33px;
+    padding: 0px 150px;
+    width: 250px;
+    
+}
+.textip input{
+    text-align: center;
+   display: block;
+   width:350px;
+   margin: 10px auto;
+   font-family: "Lexend", sans-serif;
+   border-radius:10px;
+   border: none;
+   height:30px;
+}
+.btn{
+    font-family: "Lexend", sans-serif;
+    border:none;
+    color:rgb(0, 0, 0);
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:rgb(160, 160, 160);
+}
